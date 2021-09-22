@@ -13,6 +13,7 @@
         @foreach ($articles as $article)
         <p><a href="/articles/{{ $article->id }}">{{ $article->title }}</a></p>
         @endforeach
+        <a href="/articles/create"><input type="submit" value="新規論文投稿"></a>
     </ul>
 </body>
 </html>
